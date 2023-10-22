@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mobile Shop</title>
+    <script type = "text/javascript" src = "index.js"></script>
+    <link rel = "stylesheet" href = "index.css"></link>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+  </head>
+  <body>
+
+    <!-- Header-->
+    <header id = "items-header">
+        <h1>Items</h1>
+    </header>
+    
+    <!-- Items Container  -->
+    <section id = "items-section">
+
+      <div id = "items-container">
+        <div class = "item">
+          <img src = "images/phone-1.jpg" alt = "Samsung Galaxy A03s">
+          <h3>Samsung Galaxy A03s</h3>
+          <button onclick = "addToCart('Samsung Galaxy A03s')">Add to Cart</button>
+        </div>
+
+        <div class = "item">
+          <img src = "images/phone-2.jpg" alt = "Huawei Nova Y70">
+          <h3>Huawei Nova Y70</h3>
+          <button onclick = "addToCart('Huawei Nova Y70')">Add to Cart</button>
+        </div>
+
+        <div class="item">
+          <img src="images/phone-3.jpg" alt = "Apple iPhone 11 64GB">
+          <h3>Apple iPhone 11 64GB</h3>
+          <button onclick = "addToCart('Apple iPhone 11 64GB')">Add to Cart</button>
+        </div>
+
+        <div class="item">
+          <img src="images/phone-4.jpg" alt = "Apple iPhone 13 Pro">
+          <h3>Apple iPhone 13 Pro - 128GB</h3>
+          <button onclick = "addToCart('Apple iPhone 13 Pro - 128GB')">Add to Cart</button>
+        </div>
+
+        <div class="item">
+          <img src="images/phone-5.jpg" alt = "Apple iPhone SE 3">
+          <h3>Apple iPhone SE 3 (2022) 64GB</h3>
+          <button onclick = "addToCart('Apple iPhone SE 3 (2022) 64GB')">Add to Cart</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Cart Section -->
+    <section id = "cart-section">
+        <div id = "cart-header">
+          <h1>Cart</h1>
+        </div>
+        
+        <div id = "cart">
+          <img src="images/cart.png">
+          <div>
+            <div id = "cart-info">
+              <h3>Items</h3>
+              <div id = "items-quantity">0</div>
+            </div>
+            <ol id = "cart-items-list">
+            </ol>
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id = "credits">
+      <p>© Thanilka Udugama - 2023</p>
+    </footer>
+
+  </body>
+</html>
