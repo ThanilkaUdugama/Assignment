@@ -112,9 +112,8 @@
   display: flex;
 }
 
-#cart > img{
-  width : 75px;
-  height: 75px;
+#cart-container > img{
+  width : 20px;
   margin: 40px;
 }
 
