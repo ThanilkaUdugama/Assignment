@@ -112,8 +112,8 @@
   display: flex;
 }
 
-#cart-container > img{
-  width : 20px;
+#cart > img{
+  width : 100px;
   margin: 40px;
 }
 
@@ -203,4 +203,31 @@
   color: #FFFFFF;
   font-size: 0.8rem;
   margin: 10px;
+}
+
+#cart-container{
+  display: flex;
+  flex-direction: column;
+}
+
+/* mobile styling */
+
+@media only screen and (max-width: 600px) {
+  #cart{
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #cart-items-list > li{
+    width: 80vw;
+  }
+
+  #cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
