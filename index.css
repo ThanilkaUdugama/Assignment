@@ -110,6 +110,7 @@
 
 #cart{
   display: flex;
+  height: 60vh;
 }
 
 #cart > img{
