@@ -219,6 +219,10 @@
     align-items: center;
   }
 
+  .item > img, .item{
+    width: 60vw;
+  }
+
   #cart-items-list > li{
     width: 80vw;
   }
