@@ -50,5 +50,3 @@ function removeItem(item){
   createCart();
 
 }
-
-createCart();
