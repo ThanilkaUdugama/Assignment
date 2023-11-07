@@ -1,6 +1,8 @@
 var cart = {"Samsung Galaxy A03s" : 4, "Apple iPhone 11 64GB" : 2, "Huawei Nova" : 6};
 var items_count = 0;
 
+createCart();
+
 function createCart(){
   let inner_html = '';
   let i = 0;
