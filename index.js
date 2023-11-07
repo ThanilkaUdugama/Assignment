@@ -1,5 +1,7 @@
 var cart = {"Samsung Galaxy A03s" : 4, "Apple iPhone 11 64GB" : 2, "Huawei Nova" : 6};
-var items_count = Object.keys(cart).length;
+var items_count = 0;
+
+Object.keys(cart).forEach(item => items_count += cart[item]);
 
 
 function createCart(){
